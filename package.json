@@ -1,0 +1,20 @@
+{
+  "name": "@secureservice/api",
+  "version": "1.0.1",
+  "description": "a package that allows you to access the secureservice api",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "roblox",
+    "secureservice",
+    "ranking"
+  ],
+  "author": "brandon#10001",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {}
+}
