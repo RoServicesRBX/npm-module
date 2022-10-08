@@ -1,6 +1,6 @@
 {
   "name": "@secureservice/api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a package that allows you to access the secureservice api",
   "main": "src/index.js",
   "scripts": {
