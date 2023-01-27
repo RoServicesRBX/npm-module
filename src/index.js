@@ -8,7 +8,7 @@ class SecureService {
 
 
     async demote(userId) {
-        const response = await fetch('https://api.secureservice.app/api/ranking/demote', {
+        const response = await fetch('https://api.roservices.app/api/ranking/demote', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
@@ -20,7 +20,7 @@ class SecureService {
     }
 
     async promote(userId) {
-        const response = await fetch('https://api.secureservice.app/api/ranking/promote', {
+        const response = await fetch('https://api.roservices.app/api/ranking/promote', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
@@ -32,7 +32,7 @@ class SecureService {
     }
 
     async setRank(userId, rank) {
-        const response = await fetch('https://api.secureservice.app/api/ranking/setrank', {
+        const response = await fetch('https://api.roservices.app/api/ranking/setrank', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ class SecureService {
     }
 
     async shout(message) {
-        const response = await fetch('https://api.secureservice.app/api/ranking/shout', {
+        const response = await fetch('https://api.roservices.app/api/ranking/shout', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
@@ -56,7 +56,7 @@ class SecureService {
     }
 
     async handleJoinRequest(userId, accept) {
-        const response = await fetch('https://api.secureservice.app/api/ranking/handlejoinrequest', {
+        const response = await fetch('https://api.roservices.app/api/ranking/handlejoinrequest', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/json',
